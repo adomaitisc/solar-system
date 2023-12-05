@@ -1,0 +1,29 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html,
+#root {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#canvas-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #6b5050;
+}
+.content {
+  transform: translate3d(200, 200, 200);
+  height: 100px;
+  width: 100px;
+  background: #ffffff;
+  color: white;
+  border-radius: 50000px;
+}
