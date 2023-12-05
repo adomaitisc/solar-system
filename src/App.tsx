@@ -10,7 +10,6 @@ const MIN_PLANET_RADIUS = 0.6;
 function generatePlanet(previousOrbit: number, orbitIndex: number) {
   const color = getRandomColor();
   const baseOrbit = 6;
-  const orbitVariance = 3;
 
   let orbitRadius;
   if (previousOrbit === 0) {
