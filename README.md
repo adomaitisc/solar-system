@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Random Solar System App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that generates a randomized solar system each time you load the page. Watch as astros take random shapes, colors, and sizes to form unique, dynamic solar systems!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Randomized Solar Systems: Each page refresh generates a unique solar system with random planets, orbits, and moons properties.
+- React-Based UI: Uses React for smooth component updates and state management.
 
-## Expanding the ESLint configuration
+## Customization
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To customize the randomness or styling:
+- Edit planet and moon generation logic in the `src/App.tsx` file.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React** - Core UI library
+- **ThreeJS** - 3D library
+- **CSS** - Basic styling for visuals
